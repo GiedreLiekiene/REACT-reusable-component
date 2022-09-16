@@ -1,7 +1,8 @@
 import React from "react";
 
-function Header() {
-  return <div>Header</div>;
+function Footer(props) {
+  console.log(props.dat);
+  return <div> Footer {props.dat}</div>;
 }
 
-export default Header;
+export default Footer;
